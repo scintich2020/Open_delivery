@@ -16,6 +16,9 @@ import { ColisDetailsComponent } from './components/colis-details/colis-details.
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import {DashboardSidebarComponent} from "./components/dashboard-sidebar/dashboard-sidebar.component";
+import { ColisItemComponent } from './components/colis-item/colis-item.component';
+
 
 @NgModule({
   declarations: [
@@ -28,7 +31,9 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
     ListColisComponent,
     ColisFormComponent,
     ColisDetailsComponent,
-    DashboardComponent
+    DashboardComponent,
+    DashboardSidebarComponent,
+    ColisItemComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +42,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
     MaterialModule,
     HttpClientModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
