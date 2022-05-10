@@ -1,0 +1,20 @@
+{
+  "colisList": [
+    {
+      "intitule": "enveloppe",
+      "description": "jkfyzeyfg",
+      "quantite": 12,
+      "poidsColis": 12,
+      "valeurColis": 11,
+      "id": 1
+    },
+    {
+      "intitule": "enveloppe",
+      "description": "jkfyzeyfg",
+      "quantite": 22,
+      "poidsColis": 22,
+      "valeurColis": 22,
+      "id": 2
+    }
+  ]
+}

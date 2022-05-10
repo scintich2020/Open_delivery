@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+*,p,div{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card-form{
+  max-width: 500px;
+}
+.btn-enter{
+  background-color: red;
+  height: 45px;
+  font-size: 16px;
+}
+.divider{
+  height: 1px;
+  background-color: #ccc;
+  flex: 1;
+}
+.mat-raised-button:not([class*=mat-elevation-z]) {
+  // box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+  height: 50px;
+}
+.logo{
+  text-decoration: none;
+  color: black;
+}

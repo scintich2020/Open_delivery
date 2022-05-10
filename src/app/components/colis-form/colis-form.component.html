@@ -1,0 +1,30 @@
+<div class="card" style="margin: 100px;">
+  <h2 class="card-header">Colis</h2>
+  <form [formGroup]="colisForm" class="px-5 mb-5 mt-5">
+    <mat-form-field class="w-100" appearance="outline">
+      <mat-label>Intitulé</mat-label>
+      <input matInput type="text" formControlName="intitule">
+    </mat-form-field>
+    <div class="form row">
+      <mat-form-field class="form-group col-md-6" appearance="outline">
+        <mat-label>Description</mat-label>
+        <input matInput type="text" formControlName="description">
+      </mat-form-field>
+      <mat-form-field class="form-group col-md-6" appearance="outline">
+        <mat-label>Quantité</mat-label>
+        <input matInput type="number" formControlName="quantite">
+      </mat-form-field>
+    </div>
+    <div class="form row">
+      <mat-form-field class="form-group col-md-6" appearance="outline">
+        <mat-label>Poids du colis</mat-label>
+        <input matInput type="number" formControlName="poidsColis">
+      </mat-form-field>
+      <mat-form-field class="form-group col-md-6" appearance="outline">
+        <mat-label>Valeur du colis</mat-label>
+        <input matInput type="number" formControlName="valeurColis">
+      </mat-form-field>
+    </div>
+    <button type="submit" class="btn btn-primary" (click)="addColis()">Enregistrer</button>
+  </form>
+</div>
